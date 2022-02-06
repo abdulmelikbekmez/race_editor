@@ -1,0 +1,5 @@
+
+venv/
+.vscode/
+pyrightconfig.json
+__pycache__/
