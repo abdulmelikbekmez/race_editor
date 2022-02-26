@@ -1,5 +1,6 @@
 
 venv/
 .vscode/
+.idea/
 pyrightconfig.json
 __pycache__/

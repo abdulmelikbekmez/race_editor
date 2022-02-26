@@ -17,7 +17,7 @@ class UI:
         self.__screen = screen
         self.__mode_app = AppMode.PLACE_BORDER
         self.elements : Dict[UIElement, AppMode] = {}
-        self.__add_element(Car(self.__screen, Vector2(300,300)),AppMode.PLACE_CAR)
+        self.__add_element(Car(self.__screen, self.get_pos_element(),is_static=True),AppMode.PLACE_CAR)
         self.__add_element_border()
         self.renderer_text = TextRenderer(screen,Vector2(BELOW_SCREEN),self.__mode_app.value)
 
